@@ -1,3 +1,31 @@
 /* CSS Document*/
-h1 {
-  font-color: 
+body
+{background-color: sandybrown;
+align-content: center;
+    
+}
+
+h1
+{font-family: sans-serif;
+margin: autoem;
+color: antiquewhite;
+display: inline-block;
+}
+
+h2
+{font-family: sans-serif;
+color: sienna;
+}
+
+h3
+{font-family: sans-serif;
+color:antiquewhite}
+
+.uppercase {
+    text-transform: uppercase;
+}
+    
+.price {
+    color: white;
+}  
+    
