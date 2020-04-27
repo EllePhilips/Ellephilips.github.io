@@ -1,0 +1,83 @@
+body
+{background-color: sandybrown;
+text-align: center;
+    
+}
+
+h1
+{font-family: serif;
+margin-left: .75em;
+color: skyblue;
+    background-color: antiquewhite;
+    padding-left:.15em;
+    padding-right:.15em;
+display: inline-block;
+    font-size: 5em;
+    font-style: obliqueS;
+    
+}
+
+h2
+{font-family: sans-serif;
+    margin-left: 1.35em;
+margin-bottom: 2em;
+    font-size: 2.5em;
+color: antiquewhite;
+    
+
+}
+
+h3
+{font-family: sans-serif;
+    margin-left: 1.25em;
+    font-style: bold;
+    font-size: 2em;
+color:sienna;
+    margin-top: 3em;
+}
+
+h4{ 
+    font-family: sans-serif;
+    color: sandybrown; 
+    padding-left: .5em;
+    padding-right: .5em;
+    background-color: antiquewhite;
+    display: inline-block;
+    
+}
+
+ul {
+   list-style-type: none 
+}   
+
+li{
+    margin-bottom: 3em;
+    
+}
+
+
+.description{
+    color:antiquewhite;
+    font-style: oblique;
+    font-size: 1.5em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+    
+.price {
+    color: white;
+    font-weight: 200;
+    font-family: serif;
+    padding-bottom: .5em;
+    font-size: 1.25em;
+
+}  
+    
+
+    
