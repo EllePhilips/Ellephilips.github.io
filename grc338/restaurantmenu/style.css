@@ -21,11 +21,26 @@ h3
 {font-family: sans-serif;
 color:antiquewhite}
 
+h4{
+   padding-top: 1.5em; 
+    font-family: sans-serif;
+    color: steelblue
+}
+
+.description{
+    color:antiquewhite;
+    font-style: oblique;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
     
 .price {
     color: white;
+    font-size: 2em;
+    font-style: bold;
+    font-family: sans-serif;
+    
 }  
     
