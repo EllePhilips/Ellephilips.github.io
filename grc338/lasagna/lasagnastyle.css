@@ -16,6 +16,7 @@ float: inherit;
     font-family: wedding-gothic-atf,sans-serif;
 font-weight: 600;
 font-style: normal;
+   color: (255,0,0);
    
 }
 .container h2{
@@ -32,28 +33,29 @@ div.container {
 }
 .intro p{
     text-align: center;
-    font-family: mrs-eaves,serif;
+  font-family: sweet-sans-pro,sans-serif;
 font-weight: 400;
 font-style: normal;
     
 }
 
 div.ingredients {
-    width: 40%;
+    width: 37%;
     float:left;
-}
-
-.ingredients ul {
-    font-size: 1.125em;
-    font-family: mrs-eaves,serif;
+    font-family: sweet-sans-pro,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
+.ingredients ul {
+    font-size: 1.125em;
+    
+}
+
 div.directions {
     float:left;
-    width: 60%;
-    font-family: mrs-eaves,serif;
+    width: 63%;
+  font-family: sweet-sans-pro,sans-serif;
 font-weight: 400;
 font-style: normal;
 
@@ -72,9 +74,13 @@ font-style: normal;
     
 }
 
-footer {
-    text-align: center;
+h6 {
+  text-align: center;
     font-size: 1em;
-    display:block;
-  
+     font-family: wedding-gothic-atf,sans-serif;
+font-weight: 400;
+font-style: normal;
+  margin-top: .15em;
 }
+    
+
