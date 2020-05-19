@@ -1,0 +1,75 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+.container {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+    
+nav ul li {
+    display: inline;    
+    list-style: none;
+    margin-left: 3em;
+    font-family: forma-djr-deck,sans-serif;
+    font-weight: 500;
+    font-style: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #FA4B4B;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+H1{
+     font-family: forma-djr-deck,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #FA4B4B;
+}
+
+h2 {
+    font-family: forma-djr-deck,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FA4B4B;
+}
+
+
+h3 {
+    font-family: forma-djr-deck,sans-serif;
+    font-weight: 700;
+    font-style: nothing;
+    color: #64B0E2;
+}
+h4{
+    font-family: forma-djr-deck,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FA4B4B;
+    
+}
+
+p {
+    font-family: skolar-latin,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #64B0E2;
+}
+
+.location {
+    color: #FA4B4B;
+}
