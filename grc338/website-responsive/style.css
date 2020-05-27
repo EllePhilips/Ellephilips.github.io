@@ -1,16 +1,17 @@
-div.container {
-    margin:auto;
+.container {
+    text-align:center;
+    max-width: 100em;
+    margin: auto;
 
 }
 @media only screen and (min-width: 25em) {
-    div.container{
+    .container{
         width: 50%;
-        float: left;
-        margin-right: 1em;
+        margin-left: auto;
 }
-    @media only screen and (min-width: 35em) {
-        div.container{
-        width: 25%;
+    @media only screen and (min-width: 200em) {
+        .container{
+        width: 50%;
             
         }
     }
@@ -22,7 +23,6 @@ nav ul {
 nav ul li {
     display: inline;    
     list-style: none;
-    margin-left: 3em;
     font-family: forma-djr-deck,sans-serif;
     font-weight: 500;
     font-style: none;
