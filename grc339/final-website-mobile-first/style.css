@@ -1,0 +1,136 @@
+/*CSS document*/
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+}
+div.container {
+max-width: 40em;
+margin: auto;
+}
+figure {
+margin: 0;
+}
+img {
+width: 100%;
+}
+ul {
+list-style-type: none;
+text-decoration: none;
+padding: 0;
+text-align: center;
+}
+nav ul li{
+display: inline;    
+list-style: none;
+margin-left: .5em;
+text-transform: uppercase;
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+a{
+text-decoration: none;
+color: black;
+}
+Nav {
+margin-bottom: 2em;
+display:inline-block;
+}
+header {
+background-color: #C0C0C0;
+}
+h2{
+font-size: 4em;
+font-family: orpheuspro,serif;
+font-weight: 500;
+font-style: normal;
+}
+h3{
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 900;
+font-style: normal;
+margin-top: 2em;
+}
+p{
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+section.noimage{
+background-color: #E0E0E0;
+}
+h3.noimage{
+text-transform: uppercase;
+background-color: #C0C0C0;
+text-align: center;
+}
+section.image{
+background-color: #F0F0F0;
+}
+h3.image{
+background-color: #C0C0C0;
+text-align: center;
+}
+figcaption{
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 1.2em;
+margin: 1em 0;
+text-align: center;
+}
+footer {
+font-size: .75em;
+background-color: #FFFF00;
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 2em;
+text-align: center;
+}
+div.gallery {
+background-color: #C0C0C0;
+max-width: 60em;
+margin: 0 auto;
+padding: 1em;
+}
+main {
+position: relative;
+overflow: visible;
+padding-bottom: calc(72% + 3em);
+}
+figure.pg{
+margin: 2em;
+width: calc(100%-2em);
+position: absolute;
+opacity: 0;
+transition: opacity .5s;
+}
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4)
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5)
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6)
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7)
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+opacity: 1;
+}
+nav.labels{
+display: flex;
+margin-top: 10em;
+grid-gap: 1em;
+}
+label{
+flex-basis: 4em;
+flex-grow: 8em;
+flex-shrink: 0;
+}
+a.pglink{
+text-transform: uppercase;
+font-family: skolar-sans-latin,sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+input {
+display: none;
+}
